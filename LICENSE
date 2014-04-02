@@ -1,15 +1,8 @@
-dopostgresql
-============
-
-Postgresql puppet config that requires mysql module
-
-Changelog
----------
-
-Copyright and License
----------------------
+Devopera Postgresql supplementary module - Puppet
 
 Copyright (C) 2014 Lightenna Ltd
+
+Devopera can be contacted at: inform@lightenna.com
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

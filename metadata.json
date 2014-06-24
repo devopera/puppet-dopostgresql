@@ -1,0 +1,14 @@
+{
+  "name": "devopera-dopostgresql",
+  "version": "0.9.0",
+  "author": "(c) Alex Stanhope, Devopera.com",
+  "summary": "Postgresql installation and configuration module",
+  "license": "Apache License, Version 2.0",
+  "source": "https://github.com/devopera/puppet-dopostgresql",
+  "issues_url": "https://github.com/devopera/puppet-dopostgresql/issues",
+  "description": "",
+  "project_page": "http://devopera.com/module/dopostgresql",
+  "dependencies": [
+  
+  ]
+}

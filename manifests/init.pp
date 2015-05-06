@@ -15,9 +15,12 @@ class dopostgresql (
   class { 'postgresql::globals':
     manage_package_repo => true,
     version             => $version,
-  }->
-  class { 'postgresql::server':
   }
-
+  class { 'postgresql::server':
+    require => [Class['postgresql::globals']],
+  }
+  class { 'postgresql::lib::devel':
+    require => [Class['postgresql::globals']],
+  }
 }
 

@@ -6,6 +6,10 @@ Postgresql puppet config that requires mysql module
 Changelog
 ---------
 
+2015-06-20
+
+  * Added listen_addresses support to open ports on dev machines
+
 Copyright and License
 ---------------------
 

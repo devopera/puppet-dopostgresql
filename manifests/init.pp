@@ -10,6 +10,9 @@ class dopostgresql (
   # by default do not expose ports
   $firewall = false,
 
+  # by default, only accept connections from localhost
+  $listen_addresses = 'localhost',
+
   # end of class arguments
   # ----------------------
   # begin class
@@ -30,6 +33,7 @@ class dopostgresql (
     version             => $version,
   }
   class { 'postgresql::server':
+    listen_addresses => $listen_addresses,
     require => [Class['postgresql::globals']],
   }
   class { 'postgresql::lib::devel':
